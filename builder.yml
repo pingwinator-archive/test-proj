@@ -1,0 +1,65 @@
+queue:
+    - branch
+    - clean
+    - bump_version
+    - build
+    #- tests
+    - pack_ipa
+    - pack_dsym
+    #- online_docs
+    #- upload_doa
+    - copy_ipa
+    #- ipa_publisher
+    #- hockeyapp
+    #- docs
+    #- package
+    # - dummy => Names convention: dummy_module.rb|DummyModule
+
+
+default: &default
+    platform:       ios
+    using_pods:     true
+    project_dir:    ./TetrisNew/
+    profile:
+        file:       "~/Dropbox/Groovy/provisions/Groovy_AdHoc.mobileprovision"
+        identity:   "iPhone Distribution: Postindustria Ltd."
+    branch:
+        name:       master
+        submodules: false
+    bump_version:
+        enabled:    true
+        push:       true
+        up_mver:    true
+        simple:     false
+    build:
+        configuration:  AdHoc
+        sdk:            iphoneos
+        doclean:        true
+        workspace:
+            name:       MultiExpoNew
+            scheme:     MultiExpoNew
+        project:
+            name:       MultiExpoNew
+            target:     MultiExpoNew
+    pack_ipa:
+        enabled:    true
+        naming:
+            prefix:         MultiExpo
+            append_version: true
+    pack_dsym:
+        enabled:    true
+        copy:       false
+        output_dir: "~/Desktop/test-proj"
+    copy_ipa:
+        enabled:    false
+        output_dir: "~/Desktop/test-proj"
+        clear_old:  false
+    hockeyapp:
+        enabled:    true
+        token:      333 
+        app_id:     0
+        notify:     false
+        download:   true
+
+adhoc: &adhoc
+    <<: *default
