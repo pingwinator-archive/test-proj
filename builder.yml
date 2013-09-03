@@ -51,7 +51,7 @@ default: &default
         copy:       false
         output_dir: "~/Desktop/test-proj"
     copy_ipa:
-        enabled:    false
+        enabled:    true
         output_dir: "~/Desktop/test-proj"
         clear_old:  false
     hockeyapp:
