@@ -566,7 +566,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		6E0EB8AC1635E529002A5F10 /* Ad Hoc Distribution */ = {
+		6E0EB8AC1635E529002A5F10 /* AdHoc */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -588,9 +588,9 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = "Ad Hoc Distribution";
+			name = AdHoc;
 		};
-		6E0EB8AD1635E529002A5F10 /* Ad Hoc Distribution */ = {
+		6E0EB8AD1635E529002A5F10 /* AdHoc */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -604,7 +604,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
-			name = "Ad Hoc Distribution";
+			name = AdHoc;
 		};
 		6EC7BD4A1621E23C00066F23 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -703,7 +703,7 @@
 			buildConfigurations = (
 				6EC7BD4A1621E23C00066F23 /* Debug */,
 				6EC7BD4B1621E23C00066F23 /* Release */,
-				6E0EB8AC1635E529002A5F10 /* Ad Hoc Distribution */,
+				6E0EB8AC1635E529002A5F10 /* AdHoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -713,7 +713,7 @@
 			buildConfigurations = (
 				6EC7BD4D1621E23C00066F23 /* Debug */,
 				6EC7BD4E1621E23C00066F23 /* Release */,
-				6E0EB8AD1635E529002A5F10 /* Ad Hoc Distribution */,
+				6E0EB8AD1635E529002A5F10 /* AdHoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

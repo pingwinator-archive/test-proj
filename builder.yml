@@ -18,7 +18,7 @@ queue:
 
 default: &default
     platform:       ios
-    using_pods:     true
+    using_pods:     false
     project_dir:    ./TetrisNew/
     profile:
         file:       "~/Dropbox/Groovy/provisions/Groovy_AdHoc.mobileprovision"
@@ -36,15 +36,15 @@ default: &default
         sdk:            iphoneos
         doclean:        true
         workspace:
-            name:       MultiExpoNew
-            scheme:     MultiExpoNew
+            name:       TetrisNew
+            scheme:     TetrisNew
         project:
-            name:       MultiExpoNew
-            target:     MultiExpoNew
+            name:       TetrisNew
+            target:     TetrisNew
     pack_ipa:
         enabled:    true
         naming:
-            prefix:         MultiExpo
+            prefix:         TetrisNew
             append_version: true
     pack_dsym:
         enabled:    true

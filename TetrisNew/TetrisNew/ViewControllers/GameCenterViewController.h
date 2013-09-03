@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "GameCenterManager.h"
 #import <GameKit/GameKit.h>
-@interface GameCenterViewController : UIViewController <UIActionSheetDelegate, GKLeaderboardViewControllerDelegate, GameCenterManagerDelegate>
+@interface GameCenterViewController : UIViewController <UIActionSheetDelegate, GKLeaderboardViewControllerDelegate>
 @property (nonatomic, retain) GameCenterManager *gameCenterManager;
 @property (nonatomic, assign) NSInteger currentScore;
 @property (nonatomic, retain) NSString* currentLeaderBoard;
