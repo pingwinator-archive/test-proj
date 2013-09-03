@@ -1,0 +1,41 @@
+/* Localized versions of Info.plist keys */
+
+"Game Over" = "Конец игры";
+
+"New game" = "Новая игра";
+
+"PLAY/ PAUSE" = "ИГРА/ ПАУЗА";
+
+"RESET" = "СБРОС";
+
+"SOUND" = "МУЗЫКА";
+
+"LEFT" = "ВЛЕВО";
+
+"RIGHT" = "ВПРАВО";
+
+"DOWN" = "ВНИЗ";
+
+"ROTATE" = "ПОВОРОТ";
+
+"SETTINGS" = "НАСТРОЙКИ";
+
+"Show grid" = "Показать сетку";
+
+"Show hints" = "Показать подсказки";
+
+"Ok" = "Ok";
+
+"Add color" = "Добавить цвет";
+
+"SCORE" = "СЧЕТ";
+
+"Tap here to start game" = "Нажмите для старта игры";
+
+"Tap here to move left" = "Нажмите для передвижения влево";
+
+"Tap here to move right" = "Нажмите для передвижения вправо";
+
+"Tap here to move down" = "Нажмите для ускорения движения вниз";
+
+"Tap here to rotate shape" = "Нажмите для поворота фигуры";

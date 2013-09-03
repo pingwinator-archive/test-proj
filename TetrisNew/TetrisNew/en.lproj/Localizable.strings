@@ -1,0 +1,41 @@
+/* Localized versions of Info.plist keys */
+
+"Game Over" = "Game Over";
+
+"New game" = "New game";
+
+"PLAY/ PAUSE" = "PLAY/ PAUSE";
+
+"RESET" = "RESET";
+
+"SOUND" = "SOUND";
+
+"LEFT" = "LEFT"; 
+
+"RIGHT" = "RIGHT";
+
+"DOWN" = "DOWN";
+
+"ROTATE" = "ROTATE";
+
+"SETTINGS" = "SETTINGS";
+
+"Show grid" = "Show grid";
+
+"Show hints" = "Show hints";
+
+"Ok" = "Ok";
+
+"Add color" = "Add color";
+
+"SCORE" = "SCORE";
+
+"Tap here to start game" = "Tap here to start game";
+
+"Tap here to move left" = "Tap here to move left";
+
+"Tap here to move right" = "Tap here to move right";
+
+"Tap here to move down" = "Tap here to move down";
+
+"Tap here to rotate shape" = "Tap here to rotate shape";
