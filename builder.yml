@@ -18,7 +18,7 @@ queue:
 
 default: &default
     platform:       ios
-    using_pods:     false
+    using_pods:     yes
     project_dir:    ./TetrisNew/
     profile:
         file:       "~/Dropbox/Groovy/provisions/Groovy_AdHoc.mobileprovision"
