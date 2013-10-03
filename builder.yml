@@ -20,6 +20,9 @@ default: &default
     platform:       ios
     using_pods:     yes
     project_dir:    ./TetrisNew/
+    keychain:
+        keychain_path: /Users/buildserver/Dropbox/sync/xcode/pi.keychain
+        keychain_password: "234567"
     profile:
         file:       "~/Dropbox/Groovy/provisions/Groovy_AdHoc.mobileprovision"
         identity:   "iPhone Distribution: Postindustria Ltd."
